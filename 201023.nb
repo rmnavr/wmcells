@@ -1,0 +1,530 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     21279,        522]
+NotebookOptionsPosition[      9876,        324]
+NotebookOutlinePosition[     18923,        492]
+CellTagsIndexPosition[     18880,        489]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Inheritance", "Title",
+ CellChangeTimes->{{3.812410793238985*^9, 
+  3.812410806871765*^9}},ExpressionUUID->"802f2817-1052-4a7d-adf6-\
+cfe74cde6f30"],
+
+Cell[StyleData[StyleDefinitions -> "Default.nb"],ExpressionUUID->"6a4aef6e-c50d-4f03-a147-c08a39bf50c7"],
+
+Cell[StyleData[All],
+ FontFamily->"Courier New",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},ExpressionUUID->"55ca962a-d24c-470f-aebf-d4b17a543c22"],
+
+Cell[StyleData[All],
+ FontFamily->"Courier New",
+ FontSize->14,ExpressionUUID->"b065b6df-2f14-4f0b-b0b9-a046c82249ff"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Titles", "Title",
+ CellChangeTimes->{{3.663156514169795*^9, 3.66315652513911*^9}, {
+  3.8124108239836845`*^9, 
+  3.8124108252782316`*^9}},ExpressionUUID->"144c943e-89a4-4b1f-bc01-\
+7c11d627669a"],
+
+Cell[StyleData["Title"],
+ CellFrame->{{3, 3}, {3, 3}},
+ CellDingbat->None,
+ ShowCellBracket->True,
+ ShowGroupOpener->True,
+ CellMargins->{{25, Inherited}, {0, 2}},
+ GroupOpenerColor->RGBColor[0.737255, 0.262745, 0.572549],
+ CellBracketOptions->{"Margins"->{0, 2},
+ "Widths"->{0, 7}},
+ CellElementSpacings->{"ClosedGroupTopMargin"->4},
+ StyleKeyMapping->{
+  "Tab" -> "Chapter", KeyEvent["Tab", Modifiers -> {Shift}] -> "Title"},
+ CellGroupingRules->"TitleGrouping",
+ CellLabelPositioning->Automatic,
+ CellLabelMargins->{{12, Inherited}, {Inherited, Inherited}},
+ CellFrameMargins->5,
+ CellFrameColor->GrayLevel[0],
+ CellFrameStyle->{},
+ CellFrameLabels->{{None, "1"}, {None, None}},
+ CellFrameLabelMargins->3,
+ CellChangeTimes->{{3.663156514169795*^9, 3.66315652513911*^9}},
+ FontFamily->"Courier New",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Plain",
+ FontTracking->"Plain",
+ FontVariations->{"Outline"->False,
+ "Shadow"->False,
+ "StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[0., 0., 0.],
+ Background->RGBColor[
+  0.8431372549019608, 0.6784313725490196, 
+   0.9137254901960784],ExpressionUUID->"bc052c66-cf30-42bb-9d2d-4d5e99b85b74"],
+
+Cell["\<\
+(Subtitle and Subsubtitle here are mentioned for removing Alt+2/Alt+3 from \
+them bleyat)\
+\>", "Text",
+ CellChangeTimes->{{3.812410907867818*^9, 
+  3.8124109582467985`*^9}},ExpressionUUID->"95f6788d-3eb3-4d3d-bd15-\
+236200ab32eb"],
+
+Cell[StyleData["Subtitle"],
+ MenuCommandKey->None,
+ FontSize->14,ExpressionUUID->"4bc79f3f-521b-441d-bc39-09fef1f7b09d"],
+
+Cell[StyleData["Subsubtitle"],
+ MenuCommandKey->None,
+ FontSize->14,ExpressionUUID->"b522d4c9-669d-4549-bfaa-d8ee25e353c0"],
+
+Cell[StyleData["Chapter"],
+ CellFrame->{{3, 3}, {3, 3}},
+ ShowCellBracket->True,
+ ShowGroupOpener->True,
+ CellMargins->{{30, Inherited}, {0, 2}},
+ CellBracketOptions->{"Margins"->{0, 2},
+ "Widths"->{0, 7}},
+ CellElementSpacings->{"CellMinHeight"->12,
+ "ClosedCellHeight"->19,
+ "ClosedGroupTopMargin"->4},
+ StyleKeyMapping->{
+  "Tab" -> "Subchapter", KeyEvent["Tab", Modifiers -> {Shift}] -> "Title"},
+ ShowCellLabel->Automatic,
+ CellLabelMargins->{{12, Inherited}, {Inherited, Inherited}},
+ CellFrameMargins->3,
+ CellFrameColor->GrayLevel[0],
+ CellFrameLabels->{{None, "2"}, {None, None}},
+ CellFrameLabelMargins->3,
+ CellChangeTimes->{{3.6631565141853085`*^9, 3.66315652513911*^9}},
+ MenuCommandKey->"2",
+ FontFamily->"Courier New",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Plain",
+ FontTracking->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[0., 0., 0.],
+ Background->RGBColor[
+  0.917647, 0.733333, 
+   0.776471],ExpressionUUID->"3fb5adc5-4055-45ab-a7a3-c0b1caa390a8"],
+
+Cell[StyleData["Subchapter"],
+ CellFrame->{{2, 0}, {2, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{35, Inherited}, {0, 2}},
+ StyleKeyMapping->{
+  "Tab" -> "Section", KeyEvent["Tab", Modifiers -> {Shift}] -> "Chapter"},
+ CellFrameMargins->3,
+ CellFrameColor->GrayLevel[0],
+ CellFrameLabels->{{None, "3"}, {None, None}},
+ CellFrameLabelMargins->3,
+ MenuCommandKey->"3",
+ FontFamily->"Courier New",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Plain",
+ FontTracking->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[0., 0., 0.],
+ Background->RGBColor[
+  0.72549, 0.866667, 
+   0.784314],ExpressionUUID->"a19c8d29-0a69-4fd3-afee-76f6f9c5897d"],
+
+Cell[StyleData["Section"],
+ CellFrame->{{0, 0}, {2, 0}},
+ ShowGroupOpener->True,
+ CellMargins->{{40, Inherited}, {0, 2}},
+ StyleKeyMapping->{
+  "Tab" -> "Subsection", KeyEvent["Tab", Modifiers -> {Shift}] -> 
+   "Subchapter"},
+ CellFrameMargins->3,
+ CellFrameColor->GrayLevel[0],
+ CellFrameLabels->{{None, "4"}, {None, None}},
+ CellFrameLabelMargins->3,
+ FontFamily->"Courier New",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Plain",
+ FontTracking->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[0., 0., 0.],
+ Background->RGBColor[
+  0.772549, 0.913725, 
+   0.901961],ExpressionUUID->"5481edaa-0625-4a59-a9c2-67dff8765dce"],
+
+Cell[StyleData["Subsection"],
+ CellFrame->{{0, 0}, {1, 0}},
+ ShowGroupOpener->True,
+ CellMargins->{{45, Inherited}, {0, 2}},
+ StyleKeyMapping->{
+  "Tab" -> "Subsubsection", KeyEvent["Tab", Modifiers -> {Shift}] -> 
+   "Section"},
+ CellFrameMargins->3,
+ CellFrameColor->GrayLevel[0],
+ CellFrameLabels->{{None, "5"}, {None, None}},
+ CellFrameLabelMargins->3,
+ FontFamily->"Courier New",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Plain",
+ FontTracking->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[0., 0., 0.],
+ Background->RGBColor[
+  0.988235, 0.839216, 
+   0.933333],ExpressionUUID->"1e3c8f01-adf7-44b0-a0a3-9a903b87ce01"],
+
+Cell[StyleData["Subsubsection"],
+ ShowGroupOpener->True,
+ CellMargins->{{50, Inherited}, {0, 2}},
+ StyleKeyMapping->{
+  "Tab" -> "Subsubsection", KeyEvent["Tab", Modifiers -> {Shift}] -> 
+   "Subsection"},
+ CellFrameMargins->3,
+ CellFrameColor->GrayLevel[0],
+ CellFrameLabels->{{None, "6"}, {None, None}},
+ CellFrameLabelMargins->3,
+ FontFamily->"Courier New",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Plain",
+ FontTracking->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[0., 0., 0.],
+ Background->GrayLevel[
+  0.85],ExpressionUUID->"2da1c2ef-d956-4c75-adb6-5469b05699fd"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Text and I/O", "Title",
+ CellChangeTimes->{{3.812410835697792*^9, 
+  3.8124108472304316`*^9}},ExpressionUUID->"632ef355-0ab1-41ef-ac71-\
+db98f479a59a"],
+
+Cell[StyleData["Text"],
+ CellFrame->1,
+ CellMargins->{{50, Inherited}, {0, 2}},
+ CellFrameColor->GrayLevel[0.682353],
+ CellFrameLabels->{{None, None}, {None, None}},
+ CellFrameLabelMargins->3,
+ FontFamily->"Courier New",
+ FontSize->14,
+ FontSlant->"Plain",
+ FontTracking->"Plain",
+ Background->GrayLevel[
+  0.97],ExpressionUUID->"b17802a7-c1f0-4783-9365-8fad5a2255a6"],
+
+Cell[StyleData["Input"],
+ CellFrame->{{2, 0}, {0, 0}},
+ CellDingbat->None,
+ ShowCellBracket->True,
+ ShowGroupOpener->None,
+ CellMargins->{{55, 10}, {0, 2}},
+ CellBracketOptions->{"Margins"->{0, 2},
+ "Widths"->{0, 7}},
+ ShowCellLabel->False,
+ CellLabelMargins->{{12, Inherited}, {Inherited, Inherited}},
+ CellFrameMargins->8,
+ CellFrameColor->RGBColor[0.109804, 0.411765, 0.0470588],
+ CellFrameLabels->{{None, None}, {None, None}},
+ CellFrameLabelMargins->3,
+ MenuCommandKey->"8",
+ FontFamily->Dynamic[
+   CurrentValue[{StyleHints, "CodeFont"}]],
+ FontSize->13,
+ FontWeight->"DemiBold",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ Background->RGBColor[
+  0.9176470588235294, 0.9176470588235294, 
+   0.9176470588235294],ExpressionUUID->"ee7c2d0c-bf9c-4cf9-8118-d27aa0d15236"],
+
+Cell[StyleData["Output"],
+ CellFrame->{{2, 0}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->None,
+ CellMargins->{{55, 10}, {0, 2}},
+ CellElementSpacings->{"CellMinHeight"->12},
+ ShowCellLabel->False,
+ CellFrameColor->GrayLevel[0.7],
+ CellFrameStyle->{{
+    Directive[
+     Dashing[{5, 2}]], Null}, {Null, Null}},
+ CellFrameLabels->{{None, None}, {None, None}},
+ CellFrameLabelMargins->3,
+ MenuCommandKey->"9",
+ FontFamily->Dynamic[
+   CurrentValue[{StyleHints, "CodeFont"}]],
+ FontSize->13,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ Background->GrayLevel[
+  1],ExpressionUUID->"85f751fc-bc0d-4d6c-8aa7-b74646d5f087"],
+
+Cell[StyleData["Message"],
+ CellFrame->{{2, 0}, {0, 0}},
+ CellDingbat->None,
+ CellMargins->{{55, 10}, {0, 2}},
+ CellGroupingRules->"OutputGrouping",
+ PageBreakWithin->False,
+ GroupPageBreakWithin->False,
+ GeneratedCell->True,
+ CellAutoOverwrite->True,
+ ShowCellLabel->False,
+ CellLabelPositioning->Automatic,
+ CellFrameMargins->{{4, 4}, {2, 2}},
+ CellFrameColor->RGBColor[0.937255, 0.305882, 0.305882],
+ CellFrameLabels->{{None, Inherited}, {None, Inherited}},
+ CellFrameLabelMargins->10,
+ DefaultFormatType->DefaultOutputFormatType,
+ "TwoByteSyntaxCharacterAutoReplacement"->True,
+ HyphenationOptions->{"HyphenationCharacter"->"\[Continuation]"},
+ AutoItalicWords->{},
+ LanguageCategory->None,
+ FormatType->InputForm,
+ CounterIncrements->"Message",
+ StyleMenuListing->None,
+ FontFamily->"Courier New",
+ FontSize->14,
+ FontColor->RGBColor[0.6, 0.100008, 0.100008],
+ Background->RGBColor[1, 0.905882, 0.701961],
+ AutoStyleOptions -> {
+  "UnmatchedBracketStyle" -> 
+   None},ExpressionUUID->"6c6590b8-12fc-4dc8-b704-620b73d572dd"]
+}, Open  ]]
+},
+WindowSize->{1858, 1037},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+Background->RGBColor[1, 0.960006, 0.900008],
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData[All], FontFamily -> "Courier New", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+   Cell[
+    StyleData[All], FontFamily -> "Courier New", FontSize -> 14], 
+   Cell[
+    StyleData["Title"], CellFrame -> {{3, 3}, {3, 3}}, CellDingbat -> None, 
+    ShowCellBracket -> True, ShowGroupOpener -> True, 
+    CellMargins -> {{25, Inherited}, {0, 2}}, GroupOpenerColor -> 
+    RGBColor[0.737255, 0.262745, 0.572549], 
+    CellBracketOptions -> {"Margins" -> {0, 2}, "Widths" -> {0, 7}}, 
+    CellElementSpacings -> {"ClosedGroupTopMargin" -> 4}, 
+    StyleKeyMapping -> {
+     "Tab" -> "Chapter", KeyEvent["Tab", Modifiers -> {Shift}] -> "Title"}, 
+    CellGroupingRules -> "TitleGrouping", CellLabelPositioning -> Automatic, 
+    CellLabelMargins -> {{12, Inherited}, {Inherited, Inherited}}, 
+    CellFrameMargins -> 5, CellFrameColor -> GrayLevel[0], 
+    CellFrameStyle -> {}, CellFrameLabels -> {{None, "1"}, {None, None}}, 
+    CellFrameLabelMargins -> 3, 
+    CellChangeTimes -> {{3.663156514169795*^9, 3.66315652513911*^9}}, 
+    FontFamily -> "Courier New", FontSize -> 14, FontWeight -> "Bold", 
+    FontSlant -> "Plain", FontTracking -> "Plain", 
+    FontVariations -> {
+     "Outline" -> False, "Shadow" -> False, "StrikeThrough" -> False, 
+      "Underline" -> False}, FontColor -> RGBColor[0., 0., 0.], Background -> 
+    RGBColor[0.8431372549019608, 0.6784313725490196, 0.9137254901960784]], 
+   Cell[
+    StyleData["Subtitle"], MenuCommandKey -> None, FontSize -> 14], 
+   Cell[
+    StyleData["Subsubtitle"], MenuCommandKey -> None, FontSize -> 14], 
+   Cell[
+    StyleData["Chapter"], CellFrame -> {{3, 3}, {3, 3}}, ShowCellBracket -> 
+    True, ShowGroupOpener -> True, CellMargins -> {{30, Inherited}, {0, 2}}, 
+    CellBracketOptions -> {"Margins" -> {0, 2}, "Widths" -> {0, 7}}, 
+    CellElementSpacings -> {
+     "CellMinHeight" -> 12, "ClosedCellHeight" -> 19, "ClosedGroupTopMargin" -> 
+      4}, StyleKeyMapping -> {
+     "Tab" -> "Subchapter", KeyEvent["Tab", Modifiers -> {Shift}] -> "Title"},
+     ShowCellLabel -> Automatic, 
+    CellLabelMargins -> {{12, Inherited}, {Inherited, Inherited}}, 
+    CellFrameMargins -> 3, CellFrameColor -> GrayLevel[0], 
+    CellFrameLabels -> {{None, "2"}, {None, None}}, CellFrameLabelMargins -> 
+    3, CellChangeTimes -> {{3.6631565141853085`*^9, 3.66315652513911*^9}}, 
+    MenuCommandKey -> "2", FontFamily -> "Courier New", FontSize -> 14, 
+    FontWeight -> "Bold", FontSlant -> "Plain", FontTracking -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
+    FontColor -> RGBColor[0., 0., 0.], Background -> 
+    RGBColor[0.917647, 0.733333, 0.776471]], 
+   Cell[
+    StyleData["Subchapter"], CellFrame -> {{2, 0}, {2, 0}}, CellDingbat -> 
+    None, ShowGroupOpener -> True, CellMargins -> {{35, Inherited}, {0, 2}}, 
+    StyleKeyMapping -> {
+     "Tab" -> "Section", KeyEvent["Tab", Modifiers -> {Shift}] -> "Chapter"}, 
+    CellFrameMargins -> 3, CellFrameColor -> GrayLevel[0], 
+    CellFrameLabels -> {{None, "3"}, {None, None}}, CellFrameLabelMargins -> 
+    3, MenuCommandKey -> "3", FontFamily -> "Courier New", FontSize -> 14, 
+    FontWeight -> "Bold", FontSlant -> "Plain", FontTracking -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
+    FontColor -> RGBColor[0., 0., 0.], Background -> 
+    RGBColor[0.72549, 0.866667, 0.784314]], 
+   Cell[
+    StyleData["Section"], CellFrame -> {{0, 0}, {2, 0}}, ShowGroupOpener -> 
+    True, CellMargins -> {{40, Inherited}, {0, 2}}, 
+    StyleKeyMapping -> {
+     "Tab" -> "Subsection", KeyEvent["Tab", Modifiers -> {Shift}] -> 
+      "Subchapter"}, CellFrameMargins -> 3, CellFrameColor -> GrayLevel[0], 
+    CellFrameLabels -> {{None, "4"}, {None, None}}, CellFrameLabelMargins -> 
+    3, FontFamily -> "Courier New", FontSize -> 14, FontWeight -> "Bold", 
+    FontSlant -> "Plain", FontTracking -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
+    FontColor -> RGBColor[0., 0., 0.], Background -> 
+    RGBColor[0.772549, 0.913725, 0.901961]], 
+   Cell[
+    StyleData["Subsection"], CellFrame -> {{0, 0}, {1, 0}}, ShowGroupOpener -> 
+    True, CellMargins -> {{45, Inherited}, {0, 2}}, 
+    StyleKeyMapping -> {
+     "Tab" -> "Subsubsection", KeyEvent["Tab", Modifiers -> {Shift}] -> 
+      "Section"}, CellFrameMargins -> 3, CellFrameColor -> GrayLevel[0], 
+    CellFrameLabels -> {{None, "5"}, {None, None}}, CellFrameLabelMargins -> 
+    3, FontFamily -> "Courier New", FontSize -> 14, FontWeight -> "Bold", 
+    FontSlant -> "Plain", FontTracking -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
+    FontColor -> RGBColor[0., 0., 0.], Background -> 
+    RGBColor[0.988235, 0.839216, 0.933333]], 
+   Cell[
+    StyleData["Subsubsection"], ShowGroupOpener -> True, 
+    CellMargins -> {{50, Inherited}, {0, 2}}, 
+    StyleKeyMapping -> {
+     "Tab" -> "Subsubsection", KeyEvent["Tab", Modifiers -> {Shift}] -> 
+      "Subsection"}, CellFrameMargins -> 3, CellFrameColor -> GrayLevel[0], 
+    CellFrameLabels -> {{None, "6"}, {None, None}}, CellFrameLabelMargins -> 
+    3, FontFamily -> "Courier New", FontSize -> 14, FontWeight -> "Bold", 
+    FontSlant -> "Plain", FontTracking -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
+    FontColor -> RGBColor[0., 0., 0.], Background -> GrayLevel[0.85]], 
+   Cell[
+    StyleData["Text"], CellFrame -> 1, 
+    CellMargins -> {{50, Inherited}, {0, 2}}, CellFrameColor -> 
+    GrayLevel[0.682353], CellFrameLabels -> {{None, None}, {None, None}}, 
+    CellFrameLabelMargins -> 3, FontFamily -> "Courier New", FontSize -> 14, 
+    FontSlant -> "Plain", FontTracking -> "Plain", Background -> 
+    GrayLevel[0.97]], 
+   Cell[
+    StyleData["Input"], CellFrame -> {{2, 0}, {0, 0}}, CellDingbat -> None, 
+    ShowCellBracket -> True, ShowGroupOpener -> None, 
+    CellMargins -> {{55, 10}, {0, 2}}, 
+    CellBracketOptions -> {"Margins" -> {0, 2}, "Widths" -> {0, 7}}, 
+    ShowCellLabel -> False, 
+    CellLabelMargins -> {{12, Inherited}, {Inherited, Inherited}}, 
+    CellFrameMargins -> 8, CellFrameColor -> 
+    RGBColor[0.109804, 0.411765, 0.0470588], 
+    CellFrameLabels -> {{None, None}, {None, None}}, CellFrameLabelMargins -> 
+    3, MenuCommandKey -> "8", FontFamily -> Dynamic[
+      CurrentValue[{StyleHints, "CodeFont"}]], FontSize -> 13, FontWeight -> 
+    "DemiBold", FontSlant -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
+    Background -> 
+    RGBColor[0.9176470588235294, 0.9176470588235294, 0.9176470588235294]], 
+   Cell[
+    StyleData["Output"], CellFrame -> {{2, 0}, {0, 0}}, CellDingbat -> None, 
+    ShowGroupOpener -> None, CellMargins -> {{55, 10}, {0, 2}}, 
+    CellElementSpacings -> {"CellMinHeight" -> 12}, ShowCellLabel -> False, 
+    CellFrameColor -> GrayLevel[0.7], CellFrameStyle -> {{
+       Directive[
+        Dashing[{5, 2}]], Null}, {Null, Null}}, 
+    CellFrameLabels -> {{None, None}, {None, None}}, CellFrameLabelMargins -> 
+    3, MenuCommandKey -> "9", FontFamily -> Dynamic[
+      CurrentValue[{StyleHints, "CodeFont"}]], FontSize -> 13, FontWeight -> 
+    "Plain", FontSlant -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}, 
+    Background -> GrayLevel[1]], 
+   Cell[
+    StyleData["Message"], CellFrame -> {{2, 0}, {0, 0}}, CellDingbat -> None, 
+    CellMargins -> {{55, 10}, {0, 2}}, CellGroupingRules -> "OutputGrouping", 
+    PageBreakWithin -> False, GroupPageBreakWithin -> False, GeneratedCell -> 
+    True, CellAutoOverwrite -> True, ShowCellLabel -> False, 
+    CellLabelPositioning -> Automatic, CellFrameMargins -> {{4, 4}, {2, 2}}, 
+    CellFrameColor -> RGBColor[0.937255, 0.305882, 0.305882], 
+    CellFrameLabels -> {{None, Inherited}, {None, Inherited}}, 
+    CellFrameLabelMargins -> 10, DefaultFormatType -> DefaultOutputFormatType,
+     "TwoByteSyntaxCharacterAutoReplacement" -> True, 
+    HyphenationOptions -> {"HyphenationCharacter" -> "\[Continuation]"}, 
+    AutoItalicWords -> {}, LanguageCategory -> None, FormatType -> InputForm, 
+    CounterIncrements -> "Message", StyleMenuListing -> None, FontFamily -> 
+    "Courier New", FontSize -> 14, FontColor -> 
+    RGBColor[0.6, 0.100008, 0.100008], Background -> 
+    RGBColor[1, 0.905882, 0.701961], 
+    AutoStyleOptions -> {"UnmatchedBracketStyle" -> None}]}, Visible -> False,
+   FrontEndVersion -> "12.0 for Microsoft Windows (64-bit) (April 8, 2019)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 154, 3, 34, "Title",ExpressionUUID->"802f2817-1052-4a7d-adf6-cfe74cde6f30"],
+Cell[737, 27, 104, 0, 40, 49, 0, "StyleData", "StyleDefinitions", "",ExpressionUUID->"6a4aef6e-c50d-4f03-a147-c08a39bf50c7"],
+Cell[844, 29, 167, 3, 40, 20, 0, "StyleData", "All", "All",ExpressionUUID->"55ca962a-d24c-470f-aebf-d4b17a543c22"],
+Cell[1014, 34, 118, 2, 42, 20, 0, "StyleData", "All", "All",ExpressionUUID->"b065b6df-2f14-4f0b-b0b9-a046c82249ff"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1169, 41, 201, 4, 34, "Title",ExpressionUUID->"144c943e-89a4-4b1f-bc01-7c11d627669a"],
+Cell[1373, 47, 1162, 33, 51, 24, 0, "StyleData", "Title", "All",ExpressionUUID->"bc052c66-cf30-42bb-9d2d-4d5e99b85b74"],
+Cell[2538, 82, 241, 6, 37, "Text",ExpressionUUID->"95f6788d-3eb3-4d3d-bd15-236200ab32eb"],
+Cell[2782, 90, 120, 2, 56, 27, 0, "StyleData", "Subtitle", "All",ExpressionUUID->"4bc79f3f-521b-441d-bc39-09fef1f7b09d",
+ MenuCommandKey->None],
+Cell[2905, 94, 123, 2, 44, 30, 0, "StyleData", "Subsubtitle", "All",ExpressionUUID->"b522d4c9-669d-4549-bfaa-d8ee25e353c0",
+ MenuCommandKey->None],
+Cell[3031, 98, 1027, 30, 47, 26, 0, "StyleData", "Chapter", "All",ExpressionUUID->"3fb5adc5-4055-45ab-a7a3-c0b1caa390a8",
+ MenuCommandKey->"2"],
+Cell[4061, 130, 709, 22, 43, 29, 0, "StyleData", "Subchapter", "All",ExpressionUUID->"a19c8d29-0a69-4fd3-afee-76f6f9c5897d",
+ MenuCommandKey->"3"],
+Cell[4773, 154, 675, 21, 43, 26, 0, "StyleData", "Section", "All",ExpressionUUID->"5481edaa-0625-4a59-a9c2-67dff8765dce"],
+Cell[5451, 177, 678, 21, 42, 29, 0, "StyleData", "Subsection", "All",ExpressionUUID->"1e3c8f01-adf7-44b0-a0a3-9a903b87ce01"],
+Cell[6132, 200, 627, 19, 41, 32, 0, "StyleData", "Subsubsection", "All",ExpressionUUID->"2da1c2ef-d956-4c75-adb6-5469b05699fd"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[6796, 224, 157, 3, 34, "Title",ExpressionUUID->"632ef355-0ab1-41ef-ac71-db98f479a59a"],
+Cell[6956, 229, 368, 11, 54, 23, 0, "StyleData", "Text", "All",ExpressionUUID->"b17802a7-c1f0-4783-9365-8fad5a2255a6"],
+Cell[7327, 242, 815, 24, 50, 24, 0, "StyleData", "Input", "All",ExpressionUUID->"ee7c2d0c-bf9c-4cf9-8118-d27aa0d15236",
+ MenuCommandKey->"8"],
+Cell[8145, 268, 684, 22, 50, 25, 0, "StyleData", "Output", "All",ExpressionUUID->"85f751fc-bc0d-4d6c-8aa7-b74646d5f087",
+ MenuCommandKey->"9"],
+Cell[8832, 292, 1028, 29, 40, 26, 0, "StyleData", "Message", "All",ExpressionUUID->"6c6590b8-12fc-4dc8-b704-620b73d572dd",
+ CounterIncrements->"Message",
+ StyleMenuListing->None]
+}, Open  ]]
+}
+]
+*)
+
