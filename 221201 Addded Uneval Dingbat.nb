@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     29145,        628]
+NotebookDataLength[     31298,        666]
 NotebookOptionsPosition[      8375,        247]
-NotebookOutlinePosition[     26919,        588]
-CellTagsIndexPosition[     26876,        585]
+NotebookOutlinePosition[     29072,        626]
+CellTagsIndexPosition[     29029,        623]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -395,13 +395,14 @@ Alt+2/Alt+3 from them bleyat", "Text", CellFrame -> {{1, 1}, {1, 1}},
         3.8787966698020744`*^9}}, FontSize -> 20, Background -> 
        GrayLevel[0.658824]], 
       Cell[
-      "Info: Hotkeys: Text 7, Input 8, Output 9", "Text", 
+      "\[Bullet] Info: Hotkeys: Text 7, Input 8, Output 9", "Text", 
        CellFrame -> {{1, 1}, {1, 1}}, CellMargins -> {{10, 0}, {0, 0}}, 
        CellFrameMargins -> 2, 
        CellChangeTimes -> {{3.87877890574933*^9, 3.878778923321144*^9}, {
          3.8787822804766207`*^9, 3.8787822862870197`*^9}, {
-         3.878785343153904*^9, 3.8787853444165573`*^9}, 3.878785571070258*^9},
-        Background -> None], 
+         3.878785343153904*^9, 3.8787853444165573`*^9}, 
+         3.878785571070258*^9, {3.8788729777164183`*^9, 
+         3.878872978024197*^9}}, Background -> None], 
       Cell[
        StyleData["Text"], CellFrame -> 1, 
        CellMargins -> {{55, Inherited}, {0, 2}}, CellFrameColor -> 
@@ -410,15 +411,37 @@ Alt+2/Alt+3 from them bleyat", "Text", CellFrame -> {{1, 1}, {1, 1}},
        "Courier New", FontSize -> 14, FontSlant -> "Plain", FontTracking -> 
        "Plain", Background -> GrayLevel[0.97]], 
       Cell[
+      "\[Bullet] Info: Dingbat codes for Input/UnevalInput are inside \
+\[LeftGuillemet]CellDingbat\[RightGuillemet] options\n\[Bullet] Button \
+Appearance options: \[LeftGuillemet]Frameless\[RightGuillemet], \
+\[LeftGuillemet]DialogBox\[RightGuillemet]\n\[Bullet] Do NOT click on them \
+inside this doc (style definitions) or all will break!!!", "Text", 
+       CellFrame -> {{1, 1}, {1, 1}}, CellMargins -> {{10, 0}, {0, 0}}, 
+       CellFrameMargins -> 2, 
+       CellChangeTimes -> {{3.87877890574933*^9, 3.878778923321144*^9}, {
+         3.8787822804766207`*^9, 3.8787822862870197`*^9}, {
+         3.878785343153904*^9, 3.8787853444165573`*^9}, 
+         3.878785571070258*^9, {3.878869730887599*^9, 
+         3.8788697493387423`*^9}, {3.878871579888234*^9, 
+         3.8788715984863625`*^9}, {3.8788729690695877`*^9, 
+         3.878873016255663*^9}}, Background -> None], 
+      Cell[
        StyleData[
        "PUPS_Unevaluated_Input", StyleDefinitions -> StyleData["Input"]], 
        CellDingbat -> Cell[
          BoxData[
-          StyleBox[
-          "//   ", StripOnInput -> False, FontVariations -> {}, FontColor -> 
-           RGBColor[0.609804, 0.811765, 0.670588]]], Background -> {}, 
-         FontSize -> 10, CellFrame -> 0], CellMargins -> {{60, 10}, {0, 2}}, 
-       Evaluatable -> False, 
+          ButtonBox[
+          "\[EmptyUpTriangle]", Appearance -> "Frameless", 
+           BaseStyle -> {
+            FontColor -> RGBColor[0.609804, 0.811765, 0.670588], FontOpacity -> 
+             1}, ButtonFunction :> (SelectionMove[
+              ButtonNotebook[], All, ButtonCell]; FrontEndExecute[
+              FrontEndToken[
+               EvaluationCell[], "Style", "Input"]]), 
+           ImageMargins -> {{0, 10}, {0, 0}}, ContentPadding -> False, 
+           FrameMargins -> {{1, 1}, {1, 0}}, Evaluator -> Automatic, Method -> 
+           "Queued"]], Background -> None], CellMargins -> {{60, 10}, {0, 2}},
+        Evaluatable -> False, 
        CellLabelMargins -> {{12, Inherited}, {Inherited, Inherited}}, 
        CellFrameMargins -> 8, CellFrameColor -> 
        RGBColor[0.609804, 0.811765, 0.670588], CellFrameStyle -> {{
@@ -430,13 +453,24 @@ Alt+2/Alt+3 from them bleyat", "Text", CellFrame -> {{1, 1}, {1, 1}},
        "Plain", FontOpacity -> 0.4, Background -> 
        RGBColor[0.9, 0.9, 0.9, 0.5]], 
       Cell[
-       StyleData["Input"], CellFrame -> {{2, 0}, {0, 0}}, CellDingbat -> None,
-        ShowCellBracket -> True, ShowGroupOpener -> None, 
-       CellMargins -> {{60, 10}, {0, 2}}, 
+       StyleData["Input"], CellFrame -> {{2, 0}, {0, 0}}, CellDingbat -> Cell[
+         BoxData[
+          ButtonBox[
+          "\[FilledUpTriangle]", Appearance -> "Frameless", 
+           BaseStyle -> {
+            FontColor -> RGBColor[0.109804, 0.411765, 0.0470588]}, 
+           ButtonFunction :> (SelectionMove[
+              ButtonNotebook[], All, ButtonCell]; FrontEndExecute[
+              FrontEndToken[
+               EvaluationCell[], "Style", "PUPS_Unevaluated_Input"]]), 
+           ImageMargins -> {{0, 10}, {0, 0}}, ContentPadding -> False, 
+           FrameMargins -> {{1, 1}, {1, 0}}, Evaluator -> Automatic, Method -> 
+           "Queued"]], Background -> None], ShowCellBracket -> True, 
+       ShowGroupOpener -> None, CellMargins -> {{60, 10}, {0, 2}}, 
        CellBracketOptions -> {"Margins" -> {0, 2}, "Widths" -> {0, 7}}, 
        ShowCellLabel -> False, 
        CellLabelMargins -> {{12, Inherited}, {Inherited, Inherited}}, 
-       CellFrameMargins -> 8, CellFrameColor -> 
+       CellFrameMargins -> {{8, 8}, {8, 8}}, CellFrameColor -> 
        RGBColor[0.109804, 0.411765, 0.0470588], 
        CellFrameLabels -> {{None, None}, {None, None}}, CellFrameLabelMargins -> 
        3, MenuCommandKey :> "8", FontFamily -> Dynamic[
@@ -558,7 +592,11 @@ Ctrl+Shift+E hotkey", "Text", CellFrame -> {{1, 1}, {1, 1}},
        Background -> GrayLevel[0.658824]], 
       Cell[
        TextData[{
-         StyleBox["221130:", FontVariations -> {"Underline" -> True}], 
+         StyleBox["01 Dec 2022:", FontVariations -> {"Underline" -> True}], 
+         "\n- Added Dingbat-buttons that autoswap between Input/UnevalInput \
+cell styles", 
+         StyleBox[
+         "\n\n30 Nov 2022:", FontVariations -> {"Underline" -> True}], 
          "\n- Added \[LeftGuillemet]Input Unevaluated\[RightGuillemet] Style\n\
 - Added Tabstop=4 for text\n- Increased all cells left margins +5 (for better \
 display at HighRes monitors)\n- Started Version hystory tracking"}], "Text", 
@@ -569,11 +607,11 @@ display at HighRes monitors)\n- Started Version hystory tracking"}], "Text",
          3.878785343153904*^9, 3.8787853444165573`*^9}, 
          3.878785571070258*^9, {3.8787964622753563`*^9, 
          3.878796513106921*^9}, {3.878796716956583*^9, 
-         3.8787967639703417`*^9}}, Background -> None]}, Open]]}, 
-  WindowMargins -> {{Automatic, 432.5}, {Automatic, 181.5}}, Visible -> False,
-   Magnification :> 0.8 Inherited, FrontEndVersion -> 
-  "13.0 for Microsoft Windows (64-bit) (December 2, 2021)", StyleDefinitions -> 
-  "PrivateStylesheetFormatting.nb"],
+         3.8787967639703417`*^9}, {3.878872917869211*^9, 
+         3.878872957442175*^9}}, Background -> None]}, Closed]]}, 
+  WindowMargins -> {{368, Automatic}, {Automatic, 189}}, Visible -> False, 
+  FrontEndVersion -> "13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+   StyleDefinitions -> "PrivateStylesheetFormatting.nb"],
 ExpressionUUID->"aa2b8bdf-428f-4e0a-a0b5-e9437cfb3946"
 ]
 (* End of Notebook Content *)
@@ -612,16 +650,16 @@ Cell[3728, 116, 199, 4, 13, "Print",ExpressionUUID->"8e7788f8-be53-40b0-830f-075
 Cell[3930, 122, 172, 3, 26, "Output",ExpressionUUID->"4afe4f91-c40d-429e-8dac-c8fa17f30dac"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4139, 130, 200, 3, 26, "Input",ExpressionUUID->"e47ac2c3-c671-4e77-a99b-7ac1e9d71c7a"],
+Cell[4139, 130, 200, 3, 27, "Input",ExpressionUUID->"e47ac2c3-c671-4e77-a99b-7ac1e9d71c7a"],
 Cell[4342, 135, 130, 3, 13, "Echo",ExpressionUUID->"047bc3a0-738d-4e0b-a8f2-26c0d4a246ee"],
 Cell[4475, 140, 149, 2, 26, "Output",ExpressionUUID->"4927d02f-30d6-4b33-8b83-5f2dedb69d6b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4661, 147, 247, 5, 26, "Input",ExpressionUUID->"3dca42e6-e521-4abb-ad56-b7947dd4f4d0"],
+Cell[4661, 147, 247, 5, 27, "Input",ExpressionUUID->"3dca42e6-e521-4abb-ad56-b7947dd4f4d0"],
 Cell[4911, 154, 394, 9, 21, "Message",ExpressionUUID->"93056e36-c31a-417e-bd1b-a36d88965172"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5342, 168, 303, 6, 26, "Input",ExpressionUUID->"4bcfe097-bf67-4b47-af0e-aa8e35aa8623"],
+Cell[5342, 168, 303, 6, 27, "Input",ExpressionUUID->"4bcfe097-bf67-4b47-af0e-aa8e35aa8623"],
 Cell[5648, 176, 2639, 62, 187, "Output",ExpressionUUID->"9b7c618f-e704-4eaf-921f-7d556b778e8e"]
 }, Open  ]]
 }, Open  ]]
