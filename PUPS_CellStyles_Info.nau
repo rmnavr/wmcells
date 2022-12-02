@@ -1,0 +1,19 @@
+
+	Как можно подписать ячейки:
+
+		1)	CellLabel (In: ...)
+
+		2) 	CellFrameLabels: со всех 4 сторон
+			// CellFrameMargins
+			// CellFrameLabelMargins
+
+		3) 	CellDingbat
+			## У меня Echo и Print сделаты через CellDingbat
+			// CellDingbatMargin -> По ходу убрали
+
+		** 	Tags + ShowTags
+
+	====================================================================================================
+
+	CellMargins		Отступ, которым у меня выровнены главы
+
