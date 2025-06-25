@@ -1,4 +1,4 @@
-# WMCells — visually organized stylesheet for Mathematica notebooke
+# WMCells — visually organized stylesheet for Mathematica notebooks
 
 WMCells is stylesheet for proper visual structuring of Wolfram Mathematica cells (inside notebooks).
 
