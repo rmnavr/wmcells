@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     32890,        693]
+NotebookDataLength[     33155,        697]
 NotebookOptionsPosition[      8846,        249]
-NotebookOutlinePosition[     30959,        656]
-CellTagsIndexPosition[     30916,        653]
+NotebookOutlinePosition[     31224,        660]
+CellTagsIndexPosition[     31181,        657]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -266,7 +266,7 @@ StyleDefinitions->Notebook[{
       Cell[
        TextData[
         StyleBox[
-        "Stylesheet Developed by Roman Averyanov", 
+        "Stylesheet Developed by Roman Averyanov (ravrlab.ru/en)", 
          FontVariations -> {"Underline" -> True}]], "Text", 
        CellMargins -> {{10, 3}, {3, 3}}, CellFrameMargins -> 2, 
        CellChangeTimes -> {{3.87877890574933*^9, 3.878778923321144*^9}, {
@@ -276,7 +276,8 @@ StyleDefinitions->Notebook[{
          3.878796513106921*^9}, {3.878796716956583*^9, 
          3.8787967639703417`*^9}, {3.878872917869211*^9, 
          3.878872957442175*^9}, 3.87890560307768*^9, 3.8789056531468763`*^9, {
-         3.8789057716845875`*^9, 3.8789057858362656`*^9}}, Background -> 
+         3.8789057716845875`*^9, 3.8789057858362656`*^9}, {
+         3.9598352252317133`*^9, 3.9598352299659176`*^9}}, Background -> 
        None]}, Closed]], 
    Cell[
     CellGroupData[{
@@ -300,7 +301,9 @@ cell styles",
          "\n\n30 Nov 2022:", FontVariations -> {"Underline" -> True}], 
          "\n- Added \[LeftGuillemet]Input Unevaluated\[RightGuillemet] Style\n\
 - Added Tabstop=4 for text\n- Increased all cells left margins +5 (for better \
-display at HighRes monitors)\n- Started Version hystory tracking"}], "Text", 
+display at HighRes monitors)\n- Started Version hystory tracking\n\n", 
+         StyleBox["25 Jun 2025:\n", FontVariations -> {"Underline" -> True}], 
+         "- Prepared for github publishing"}], "Text", 
        CellMargins -> {{10, 3}, {3, 3}}, CellFrameMargins -> 2, 
        CellChangeTimes -> {{3.87877890574933*^9, 3.878778923321144*^9}, {
          3.8787822804766207`*^9, 3.8787822862870197`*^9}, {
@@ -309,7 +312,8 @@ display at HighRes monitors)\n- Started Version hystory tracking"}], "Text",
          3.878796513106921*^9}, {3.878796716956583*^9, 
          3.8787967639703417`*^9}, {3.878872917869211*^9, 
          3.878872957442175*^9}, {3.87890560307768*^9, 
-         3.8789056286572666`*^9}}, Background -> None]}, Closed]], 
+         3.8789056286572666`*^9}, {3.9598352077706537`*^9, 
+         3.9598352186577225`*^9}}, Background -> None]}, Closed]], 
    Cell[
     CellGroupData[{
       Cell[
