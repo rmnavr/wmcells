@@ -12,7 +12,7 @@ WMCells provides following features:
 <img src="https://github.com/rmnavr/wmcells/blob/main/docs/demo.png?raw=true" alt="WM Cells Stylesheet" />
 </p>
 
-Cell styles are accessed via the following hotkeys:
+Use following hotkeys to assign style of selected cell (or for creating new cell):
 * `Alt+1..6` — headers
 * `Alt+7` — Text
 * `Alt+8` — Input cell
