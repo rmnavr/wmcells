@@ -3,23 +3,23 @@
 WMCells is stylesheet for proper visual structuring of Wolfram Mathematica cells (inside notebooks).
 
 WMCells provides following features:
-* Makes cells hierarchy clearly visible; Header cells have logically expected grouping
-* Clearly visually distinguishes Input cells from Output cells
+* Makes cells hierarchy clearly visible, header cells have logically expected grouping
+* Visually distinguishes Input cells from Output cells
 * Implements nice indents for every cell style (for Headers/Input/Output/Print/Echo/Error cells)
-* Introduces «Deactivate cell» button (see green triangle) for Input Cell — deactivated cells will not be executed either by hand or by «Evaluate All» command
+* Introduces «Deactivate cell» button (see green triangle) for Input Cell — deactivated cells will not be executed either by hand or by «Evaluate Notebook» command
 
 <p align="center">
 <img src="https://github.com/rmnavr/wmcells/blob/main/docs/demo.png?raw=true" alt="WM Cells Stylesheet" />
 </p>
 
-Cells styles has following hotkeys:
+Cell styles are accessed via the following hotkeys:
 * `Alt+1..6` — headers
 * `Alt+7` — Text
 * `Alt+8` — Input cell
 * `Alt+9` — Output cell
 
-All style info can be seen with «Format -> Edit stylesheet...» command; for reference, 
-for `wmcells.nb` it will look like this:
+All style info can be seen with «Format -> Edit stylesheet...» command.
+For reference, stylesheet of `wmcells.nb` looks like this:
 
 <p align="center">
 <img src="https://github.com/rmnavr/wmcells/blob/main/docs/style_def.png?raw=true" alt="WM Cells Stylesheet" />
@@ -27,20 +27,19 @@ for `wmcells.nb` it will look like this:
 
 # Usage
 
-Stylesheet was tested mainly on WM version 12.2.
+WMCells stylesheet was tested mainly on WM version 12.2.
 It should work in earlier and later versions too, although can't guarantee it.
 
 ## Usage from scratch
 
 Use `wmcells.nb` file directly. Just delete all demo cells.
+Use fresh `wmcells.nb` file for every new notebook.
 
-## Applying style to existing notebooks
+## Applying WMCells style to existing notebooks
 
-To apply WMCells style to existing notebook you have 2 options.
-
-Both options have following limitations:
-* If you are using same styles as used in `wmcells.nb` (Title, Chapter, Subchapter...), all will work OK
-* If some cells do not change automatically — you are probably using styles that are not used in `wmcells.nb` (Subtitle, Subitem, ...).
+You have 2 options, but both of them will have following limitations:
+* If you are using same styles for headers as used in `wmcells.nb` (Title, Chapter, Subchapter...), all will work OK
+* If some cells do not change automatically — you are probably using styles that are not used in `wmcells.nb` (like Subtitle, Subitem, ...).
   You'll have to apply `Alt+1..6` styles to such cells by hand.
 
 ### Option 1
@@ -56,4 +55,17 @@ Pasting cells from another notebook to `wmcells.nb` will automatically update th
 5. Open «Format -> Edit stylesheet...» menu
 6. Delete all style-defining cells from `your.nb` file
 7. Paste cells from step 3
+
+## Adding wmcells style to Stylesheet menu
+
+You can make WMCells style accessible from «Format -> Stylesheet -> ...» menu.
+
+> I am personally not a big fan of this method, because if you'll send your file to a college who has no WMCells style installed in the same way,
+> he'll get very poorly styled document.
+
+1. Create empty `wmcells_style.nb` file (or rename it to your taste)
+2. Copy style cells of `wmcells.nb` (style cells are accessed from «Format -> Edit stylesheet...» menu) into it .
+3. Paste these cells DIRECTLY into `wmcells_style.nb` file (NOT into it's «Format -> Edit Stylesheet...» menu)
+4. Save `wmcells_style.nb` and put it in folder `D:\Soft\WM\SystemFiles\FrontEnd\StyleSheets` (change folder to where your WM is installed)
+5. Reload WM, and you'll see «wmcells_style» in «Format -> Stylesheet -> ...» menu.
 

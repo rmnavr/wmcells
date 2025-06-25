@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     33155,        697]
+NotebookDataLength[     33212,        698]
 NotebookOptionsPosition[      8846,        249]
-NotebookOutlinePosition[     31224,        660]
-CellTagsIndexPosition[     31181,        657]
+NotebookOutlinePosition[     31281,        661]
+CellTagsIndexPosition[     31238,        658]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -282,7 +282,7 @@ StyleDefinitions->Notebook[{
    Cell[
     CellGroupData[{
       Cell[
-      "Version Hystory", "Title", ShowGroupOpener -> "InsideFrame", 
+      "Version History", "Title", ShowGroupOpener -> "InsideFrame", 
        CellMargins -> {{10, 2}, {0, 2}}, CellFrameMargins -> 8, 
        CellFrameLabels -> {}, 
        CellChangeTimes -> {{3.812410793238985*^9, 3.812410806871765*^9}, {
@@ -290,7 +290,8 @@ StyleDefinitions->Notebook[{
         3.8133838430484486`*^9}, {3.8787789160468993`*^9, 
         3.8787789168279653`*^9}, {3.8787966663188505`*^9, 
         3.8787966770477505`*^9}, {3.8789055461362705`*^9, 
-        3.878905557915965*^9}}, FontSize -> 20, Background -> 
+        3.878905557915965*^9}, {3.9598371881852837`*^9, 
+        3.959837188367962*^9}}, FontSize -> 20, Background -> 
        GrayLevel[0.658824]], 
       Cell[
        TextData[{
