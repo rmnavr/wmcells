@@ -6,7 +6,7 @@ WMCells provides following features:
 * Makes cells hierarchy clearly visible; Header cells have logically expected grouping
 * Clearly visually distinguishes Input cells from Output cells
 * Implements nice indents for every cell style (for Headers/Input/Output/Print/Echo/Error cells)
-* Introduces «Deactivate cell» button (see green triangle) for Input Cell (deactivated cells will not be executed neather by hand, nor by «Evaluate All» command)
+* Introduces «Deactivate cell» button (see green triangle) for Input Cell — deactivated cells will not be executed either by hand or by «Evaluate All» command
 
 <p align="center">
 <img src="https://github.com/rmnavr/wmcells/blob/main/docs/demo.png?raw=true" alt="WM Cells Stylesheet" />
@@ -18,7 +18,12 @@ Cells styles has following hotkeys:
 * `Alt+8` — Input cell
 * `Alt+9` — Output cell
 
-All style info can be seen with «Format -> Edit stylesheet...» command.
+All style info can be seen with «Format -> Edit stylesheet...» command; for reference, 
+for `wmcells.nb` it will look like this:
+
+<p align="center">
+<img src="https://github.com/rmnavr/wmcells/blob/main/docs/style_def.png?raw=true" alt="WM Cells Stylesheet" />
+</p>
 
 # Usage
 
@@ -52,8 +57,3 @@ Pasting cells from another notebook to `wmcells.nb` will automatically update th
 6. Delete all style-defining cells from `your.nb` file
 7. Paste cells from step 3
 
-For reference, «Format -> Edit stylesheet...» menu of `wmcells.nb` looks like this:
-
-<p align="center">
-<img src="https://github.com/rmnavr/wmcells/blob/main/docs/style_def.png?raw=true" alt="WM Cells Stylesheet" />
-</p>
