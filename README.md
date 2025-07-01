@@ -12,7 +12,7 @@ Use following hotkeys to assign style of selected cell (or for creating new cell
 * `Alt+8` — Input cell
 * `Alt+9` — Output cell
 
-As a nice feature, `WMCells` makes Input cells to have «Deactivate cell» button (see green ▲ symbol).
+As a nice feature, WMCells makes Input cells to have «Deactivate cell» button (see green ▲ symbol).
 Deactivated cells will not be executed either by hand or by «Evaluate Notebook» command.
 > Those ▲-buttons are implemented via CellDingbat option
 
